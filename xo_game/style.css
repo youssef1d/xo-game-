@@ -1,0 +1,71 @@
+section{
+    width: 300px;
+    height: 420px;
+    background-color: black;
+    padding: 20px 10px;
+    background-color: rgb(235, 112, 198);
+    margin-top: 90px;
+
+}
+
+
+.content{
+    width: 300px;
+    height: 300px;
+    background-color:rgb(235, 112, 198);
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+.title{
+    color: white;
+    width: 260px;
+    height:60px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 2em;
+    font-weight: 900;  
+}
+span{
+    color: rgb(233, 245, 72);
+}
+
+
+
+div {
+    width: 80px;
+    height: 80px;
+    background-color: brown; 
+    
+} 
+div .squer{
+    font-size: 4em ;   
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.content div:hover{
+    background-color: black;
+    
+}
+.btn{
+    width: 260px;
+    height: 40px;
+    background-color: rgb(233, 245, 72);
+
+}
+
